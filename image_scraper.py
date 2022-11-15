@@ -3,7 +3,7 @@ import requests
 import os
 from category_scraper import link_list
 
-os.chdir(os.path.join(os.getcwd(),r'C:\Users\charl\Desktop\OLD\wallpaperscom\Görseller'))
+os.chdir(os.path.join(os.getcwd(),r'<folder_path_for_saving_images>'))
 img_count=1
 for i in link_list:
     r = requests.get(i)
